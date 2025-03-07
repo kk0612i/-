@@ -62,19 +62,19 @@ chmod +x xsync
 
 如图：
 
-![给予脚本可执行权限.png](给予脚本可执行权限.png)
+![给予脚本可执行权限.png](./Assets/给予脚本可执行权限.png)
 
 # 4.加入环境变量以便全局使用
 
 > 编辑之前设置环境变量的脚本 `my_env.sh`
 > 
 
-![image.png](修改自定义环境变量脚本的命令.png)
+![image.png](./Assets/修改自定义环境变量脚本的命令.png)
 
-> 添加如下内容
-> 
+> 添加如下内容：
 
-![image.png](修改变化的内容.png)
+
+![image.png](./Assets/修改变化的内容.png)
 
 ```bash
 #JAVA_HOME
@@ -99,4 +99,4 @@ source /etc/profile
 > 如图**成功配置完成  就此`~/bin` 目录下的脚本全局可使用**
 > 
 
-![image.png](检查环境变量是成功生效.png)
+![image.png](./Assets/检查环境变量是成功生效.png)

@@ -6,11 +6,11 @@
 vim /etc/hostname
 ```
 
-![修改hostname文件过程.png](修改hostname文件过程.png)
+![修改hostname文件过程.png](./Assets/修改hostname文件过程.png)
 
-![image.png](修改hostname文件过程2.png)
+![image.png](./Assets/修改hostname文件过程2.png)
 
-![image.png](修改hostname文件过程3.png)
+![image.png](./Assets/修改hostname文件过程3.png)
 
 ## 2.主机名映射hosts文件
 

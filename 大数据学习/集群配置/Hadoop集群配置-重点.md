@@ -52,7 +52,7 @@ cd $HADOOP_HOME/etc/hadoop
 
 如图：
 
-![进入Hadoop配置文件目录.png](进入Hadoop配置文件目录.png)
+![进入Hadoop配置文件目录.png](./Assets/进入Hadoop配置文件目录.png)
 
 ## 1. 配置核心配置文件（`core-site.xml`）
 
@@ -95,7 +95,7 @@ vim core-site.xml
 > 如图：
 > 
 
-![image.png](core-site.xml配置文件内容.png)
+![image.png](./Assets/core-site.xml配置文件内容.png)
 
 ## 2.配置HDFS配置文件（`hdfs-site.xml`）
 
@@ -131,7 +131,7 @@ vim hdfs-site.xml
 > 如图：
 > 
 
-![image.png](hdfs-site.xml配置文件内容.png)
+![image.png](./Assets/hdfs-site.xml配置文件内容.png)
 
 ## 3.配置YARN配置文件（`yarn-site.xml`）
 
@@ -174,7 +174,7 @@ vim yarn-site.xml
 > 如图：
 > 
 
-![image.png](yarn-site.xml配置文件内容.png)
+![image.png](./Assets/yarn-site.xml配置文件内容.png)
 
 ## 4.配置MapReduce配置文件（`mapred-site.xml`）
 
@@ -205,7 +205,7 @@ vim mapred-site.xml
 > 如图：
 > 
 
-![image.png](mapred-site.xml配置文件内容.png)
+![image.png](./Assets/mapred-site.xml配置文件内容.png)
 
 # 4.使用xsync脚本分发配置好的Hadoop配置文件
 
@@ -222,7 +222,7 @@ vim mapred-site.xml
 > 如图：
 > 
 
-![image.png](同步文件命令.png)
+![image.png](./Assets/同步文件命令.png)
 
 # 5.在各机器上检查是否成功分发配置
 

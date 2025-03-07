@@ -18,7 +18,7 @@
 
 **免密登录原理（图解）：**
 
-![ssh免密登录原理图.png](ssh免密登录原理图.png)
+![ssh免密登录原理图.png](./Assets/ssh免密登录原理图.png)
 
 > 文字描述：
 > 
@@ -40,12 +40,12 @@
 1. 使用xshell连接三台服务器
 2. 点击工具>>选择发送键输入到>>选择已连接的会话（如图）
     
-    ![image.png](xshell发送键输入到的位置.png)
+    ![image.png](./Assets/xshell发送键输入到的位置.png)
     
 3. `cd ~/.ssh` 进入当前用户的ssh文件夹中
 4. 使用 `ssh-keygen -t rsa` 命令生成公钥与私钥(过程**一路回车**)（如图）
 
-![image.png](生成ssh-key命令以及过程.png)
+![image.png](./Assets/生成ssh-key命令以及过程.png)
 
 1. 使用`ssh-copy-id` 命令将公钥拷贝到各服务器上（如下列命令）
 
@@ -55,17 +55,17 @@ ssh-copy-id hadoop101
 ssh-copy-id hadoop103
 ```
 
-![image.png](拷贝ssh-key到各服务器上的命令及过程.png)
+![image.png](./Assets/拷贝ssh-key到各服务器上的命令及过程.png)
 
 如图当生成`authorized_keys` 即完成了公钥的拷贝
 
-![image.png](授权公钥文件内容.png)
+![image.png](./Assets/授权公钥文件内容.png)
 
 1. 尝试再次连接是否需要输入密码进行连接
     
     如图不再需要密码进行连接
     
-    ![image.png](ssh免密连接成功.png)
+    ![image.png](./Assets/ssh免密连接成功.png)
     
 
 7.生成的文件介绍

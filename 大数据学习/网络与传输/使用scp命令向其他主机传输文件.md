@@ -18,4 +18,4 @@ scp -r $pdir/fname $user@host:$pdir/fname
 
 如图：
 
-![scp命令传输过程.png](scp命令传输过程.png)
+![scp命令传输过程.png](./Assets/scp命令传输过程.png)

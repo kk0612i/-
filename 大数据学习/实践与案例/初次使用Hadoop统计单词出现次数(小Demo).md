@@ -31,7 +31,7 @@ vim test3.txt
 
 ### 进入output文件夹中
 
-![任务执行成功文件.png](任务执行成功文件.png)
+![任务执行成功文件.png](./Assets/任务执行成功文件.png)
 
 > 当看到 **_SUCCESS时证明该案列执行成功**
 > 
@@ -41,6 +41,6 @@ vim test3.txt
 > 使用 **cat 命令** 查看Hadoop生成的part-r文件
 > 
 
-![image.png](查看统计单词统计结果内容.png)
+![image.png](./Assets/查看统计单词统计结果内容.png)
 
 ## 4.尝鲜Demo完成！

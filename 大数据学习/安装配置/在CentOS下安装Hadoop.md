@@ -15,7 +15,7 @@
 
 ## 2.将下载好的Hadoop压缩包上传到CentOS上
 
-![Hadoop压缩包上传过程.png](Hadoop压缩包上传过程.png)
+![Hadoop压缩包上传过程.png](./Assets/Hadoop压缩包上传过程.png)
 
 ## 3.上传后解压缩至 /opt/module 目录下
 
@@ -60,6 +60,6 @@ source /etc/profile
 
 ## 6.使用Hadoop version命令判断是否配置成功
 
-![image.png](检查Hadoop环境变量是否配置成功.png)
+![image.png](./Assets/检查Hadoop环境变量是否配置成功.png)
 
 ## 7.**完成**

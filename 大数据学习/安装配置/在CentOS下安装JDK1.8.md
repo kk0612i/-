@@ -2,13 +2,13 @@
 
 [创建Hadoop学习途中使用的用户并设置文件夹归属](创建Hadoop学习途中使用的用户并设置文件夹归属.md) 
 
-## 1.在**/opt** 下创建文件夹存放压缩包
+## 1.在/opt下创建文件夹存放压缩包
 
 ```bash
 mkdir /opt/software
 ```
 
-![创建software文件夹命令.png](创建software文件夹命令.png)
+![创建software文件夹命令.png](./Assets/创建software文件夹命令.png)
 
 ## 2.在/opt 下创建module文件夹存放解压后的文件
 
@@ -16,7 +16,7 @@ mkdir /opt/software
 mkdir /opt/module
 ```
 
-![image.png](创建module文件夹命令.png)
+![image.png](./Assets/创建module文件夹命令.png)
 
 ## 3.下载压缩包
 
@@ -26,7 +26,7 @@ mkdir /opt/module
 
 ## 4.将下载好的压缩包上传至CentOS上
 
-![image.png](jdk压缩包上传过程.png)
+![image.png](./Assets/jdk压缩包上传过程.png)
 
 ## 5.进入/opt/software文件夹下执行解压缩命令并解压到 /opt/module 文件夹下
 
@@ -83,4 +83,4 @@ export PATH=$PATH:$JAVA_HOME/bin
 > 尝试输入 java -version命令 检查环境变量是否配置成功 **如下则配置成功**
 > 
 
-![image.png](检查Java环境变量是否配置成功.png)
+![image.png](./Assets/检查Java环境变量是否配置成功.png)

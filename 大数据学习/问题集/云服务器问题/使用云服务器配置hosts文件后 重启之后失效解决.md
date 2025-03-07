@@ -6,12 +6,12 @@
 > `vim`修改成功后：（如图）
 > 
 
-![云服务器上配置hosts文件内容.png](云服务器上配置hosts文件内容.png)
+![云服务器上配置hosts文件内容.png](./Assets/云服务器上配置hosts文件内容.png)
 
 > 重启重新连接后再次查看`hosts` 文件
 > 
 
-![image.png](重启后使用cat命令再次查看hosts文件内容.png)
+![image.png](./Assets/重启后使用cat命令再次查看hosts文件内容.png)
 
 > 此时我们可以看到一切恢复如初
 > 
@@ -26,16 +26,16 @@ vim /etc/cloud/templates/hosts.redhat.tmpl
 
 如图：
 
-![image.png](云服务器上正确修改hosts文件位置.png)
+![image.png](./Assets/云服务器上正确修改hosts文件位置.png)
 
 如图：
 
-![image.png](云服务器上正确修改hosts文件内容.png)
+![image.png](./Assets/云服务器上正确修改hosts文件内容.png)
 
 > 再次重启查看hosts文件
 > 
 
-![image.png](cat命令查看hosts文件内容.png)
+![image.png](./Assets/cat命令查看hosts文件内容.png)
 
 > **成功！所以当我们使用云服务器时需要配置hosts映射文件时应该去配置**`/etc/cloud/templates/` 下的`hosts.redhat.tmpl`  文件
 >

@@ -15,7 +15,7 @@ useradd kk
 passwd kk
 ```
 
-![创建新用户过程.png](创建新用户过程.png)
+![创建新用户过程.png](./Assets/创建新用户过程.png)
 
 > 就此即**完成**了创建新用户的功能
 > 
@@ -59,6 +59,6 @@ chown kk:kk /opt/software
 su kk
 ```
 
-![image.png](切换用户命令.png)
+![image.png](./Assets/切换用户命令.png)
 
 **~~完成！！！~~**

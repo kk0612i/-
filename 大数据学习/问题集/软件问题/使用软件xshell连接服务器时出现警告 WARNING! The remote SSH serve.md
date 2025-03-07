@@ -2,7 +2,7 @@
 
 # 警告信息:`WARNING! The remote SSH server rejected X11 forwarding request.` (如图)
 
-![软件警告内容.png](软件警告内容.png)
+![软件警告内容.png](./Assets/软件警告内容.png)
 
 > 此警告信息意思为:远程ssh服务器拒绝x11转发请求
 > 
@@ -23,11 +23,11 @@ yum install -y xorg-x11-xauth
 
 如图：
 
-![image.png](安装依赖包命令.png)
+![image.png](./Assets/安装依赖包命令.png)
 
 **安装成功后重新连接！查看是否解决**
 
 > 如图顺利解决 连接不再出现警告信息
 > 
 
-![image.png](成功去除警告.png)
+![image.png](./Assets/成功去除警告.png)
